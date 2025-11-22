@@ -1,0 +1,38 @@
+{
+ "cards": [
+  {
+   "card": "Active Enrollments"
+  },
+  {
+   "card": "Completed"
+  },
+  {
+   "card": "cancelled Enrollments"
+  },
+  {
+   "card": "Pending grading"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Availability",
+   "width": "Half"
+  },
+  {
+   "chart": "enrollment chart",
+   "width": "Half"
+  }
+ ],
+ "creation": "2025-11-21 17:07:51.293464",
+ "dashboard_name": "Active courses",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2025-11-21 20:35:05.559819",
+ "modified_by": "Administrator",
+ "module": "learning management system",
+ "name": "Active courses",
+ "owner": "Administrator"
+}

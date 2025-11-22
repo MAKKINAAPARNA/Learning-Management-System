@@ -1,0 +1,33 @@
+{
+ "attach_print": 1,
+ "channel": "Email",
+ "condition": "doc.workflow_state == \"Pending\"",
+ "creation": "2025-11-22 10:42:52.137948",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Enrollment",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hello Enrollment Manager,<br><br>\n\nA new enrollment requires your approval.<br><br>\n\n<b>Student:</b> {{ doc.student }}<br>\n<b>Course:</b> {{ doc.course }} <br>\n<b>Status:</b> Pending <br><br>\n\nPlease review and approve from the system.\nAdd your message here",
+ "message_type": "HTML",
+ "modified": "2025-11-22 10:50:58.077492",
+ "modified_by": "Administrator",
+ "module": "learning management system",
+ "name": "Enrollment Pending Approval",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_document_field": "owner",
+   "receiver_by_role": "Enrollment Manager"
+  },
+  {
+   "receiver_by_role": "System Manager"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "subject": "Enrollment Pending Approval: {{ doc.student }}"
+}

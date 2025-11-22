@@ -1,0 +1,37 @@
+{
+ "attach_print": 0,
+ "channel": "Email",
+ "condition": "doc.workflow_state == \"Approved\"\r\n",
+ "creation": "2025-11-22 10:47:03.786759",
+ "days_in_advance": 0,
+ "docstatus": 0,
+ "doctype": "Notification",
+ "document_type": "Enrollment",
+ "enabled": 1,
+ "event": "Save",
+ "idx": 0,
+ "is_standard": 1,
+ "message": "Hello,<br><br>\n\nThe enrollment has been approved.<br><br>\n\n<b>Student:</b> {{ doc.student }}<br>\n<b>Course:</b> {{ doc.course }}<br>\n<b>Status:</b> Approved<br><br>\n\nYou may now proceed with the course activities.\n\n",
+ "message_type": "HTML",
+ "modified": "2025-11-22 11:09:14.546599",
+ "modified_by": "Administrator",
+ "module": "learning management system",
+ "name": "Enrollment Approved",
+ "owner": "Administrator",
+ "recipients": [
+  {
+   "receiver_by_role": "System Manager"
+  },
+  {
+   "receiver_by_role": "Course Instructor"
+  },
+  {
+   "receiver_by_role": "Student"
+  }
+ ],
+ "send_system_notification": 1,
+ "send_to_all_assignees": 0,
+ "sender": "",
+ "sender_email": "",
+ "subject": "Enrollment Approved for {{ doc.student }}"
+}

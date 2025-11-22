@@ -165,6 +165,13 @@ app_license = "mit"
 # 		"learn.tasks.monthly"
 # 	],
 # }
+scheduler_events = {
+    "weekly": [
+        "learn.learning_management_system.overrides.scheduler_task.send_weekly_student_plan"
+    ]
+}
+
+
 
 # Testing
 # -------
