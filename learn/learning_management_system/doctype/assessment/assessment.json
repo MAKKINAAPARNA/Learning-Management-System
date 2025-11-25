@@ -18,7 +18,11 @@
    "fieldname": "assessment_title",
    "fieldtype": "Data",
    "label": "Assessment Title",
+<<<<<<< HEAD
    "unique": 1
+=======
+   "read_only": 1
+>>>>>>> 5600ebb (update)
   },
   {
    "fieldname": "course",
@@ -57,7 +61,11 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
+<<<<<<< HEAD
  "modified": "2025-11-21 23:04:00.487258",
+=======
+ "modified": "2025-11-25 10:57:11.021166",
+>>>>>>> 5600ebb (update)
  "modified_by": "Administrator",
  "module": "learning management system",
  "name": "Assessment",

@@ -166,9 +166,13 @@ app_license = "mit"
 # 	],
 # }
 scheduler_events = {
+<<<<<<< HEAD
     "weekly": [
         "learn.learning_management_system.overrides.scheduler_task.send_weekly_student_plan"
     ]
+=======
+    "weekly": [ "learn.learning_management_system.overrides.scheduler_task.send_weekly_student_plan" ]
+>>>>>>> 5600ebb (update)
 }
 
 
